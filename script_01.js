@@ -50,13 +50,13 @@ else
 /************ IF - ELSE IF  ************/
 // mit Alternativen Fällen (älter,jünger,gleich alt)
 
-if (isJohnOlder)
+if (isJohnOlder) // ageJohn > ageMark
 {
     // Ja-Zweig / true
     console.log("John ist älter");
 }
 // 1. Alternative
-else if (isJohnEqual)
+else if (isJohnEqual) // ageJohn == ageMark
 {
     // 1. Alternative / false
     console.log("John ist gleich alt");
