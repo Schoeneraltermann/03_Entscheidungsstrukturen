@@ -5,7 +5,7 @@ let ageJohn, ageMark;
 let isJohnOlder, isJohnEqual;
 
 // Wertzuweisung
-ageJohn = 35;
+ageJohn = 40;
 ageMark = 30;
 
 //Logische Aussagen/ Test(s)
@@ -34,6 +34,7 @@ if (isJohnOlder)
 // mit Alternative  
 // entweder ja oder nein
 
+/*
 if (isJohnOlder)
 {
     // Ja-Zweig / true
@@ -44,3 +45,27 @@ else
     // Nein-Zweig / false
     console.log("John ist jünger");
 }
+*/
+
+/************ IF - ELSE IF  ************/
+// mit Alternativen Fällen (älter,jünger,gleich alt)
+
+if (isJohnOlder)
+{
+    // Ja-Zweig / true
+    console.log("John ist älter");
+}
+// 1. Alternative
+else if (isJohnEqual)
+{
+    // 1. Alternative / false
+    console.log("John ist gleich alt");
+}
+// ggf. weiter Alternativen
+// else if (...)
+else
+{
+    // letze Alternative / false
+    console.log("John ist jünger");
+}
+
