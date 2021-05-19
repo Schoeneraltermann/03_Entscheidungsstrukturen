@@ -18,7 +18,9 @@ isJohnEqual = (ageJohn == ageMark);
 
 /************ IF  ************/
 // alternativlos (TINA)
+// entweder JA oder nix ...
 
+/*
 //if (true)
 if (isJohnOlder)
 //if (ageJohn > ageMark)
@@ -26,4 +28,19 @@ if (isJohnOlder)
 {
     console.log("John ist älter");
 }
+*/
 
+/************ IF - ELSE  ************/
+// mit Alternative  
+// entweder ja oder nein
+
+if (isJohnOlder)
+{
+    // Ja-Zweig / true
+    console.log("John ist älter");
+}
+else
+{
+    // Nein-Zweig / false
+    console.log("John ist jünger");
+}
