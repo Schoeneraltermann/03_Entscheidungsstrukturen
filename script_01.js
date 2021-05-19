@@ -47,9 +47,14 @@ else
 }
 */
 
+/************  Ternäre (ternary) Schreibweise ************/
+//console.log( (isJohnOlder) ? "John is older" : "Mark is older");
+
+
 /************ IF - ELSE IF  ************/
 // mit Alternativen Fällen (älter,jünger,gleich alt)
 
+/*
 if (isJohnOlder) // ageJohn > ageMark
 {
     // Ja-Zweig / true
@@ -68,4 +73,5 @@ else
     // letze Alternative / false
     console.log("John ist jünger");
 }
+*/
 
